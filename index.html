@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMB’S COCKTELS CAVE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="divHeader">
+                <img class="logo" src="img/cocktail.png" alt="cocktel cave logo">
+                <h1>GMB’S COCKTELS CAVE</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="divBusqueda" id="divBusqueda">
+                <div class="divInput">
+                    <button class="botonesBusqueda" type="button" id="botonVolver">Volver</button>
+                    <input class="botonesBusqueda" type="text" name="buscar" id="buscarIngrediente" placeholder="Busca tu cóctel...">
+                    <button class="botonesBusqueda" type="button" id="submitBuscarIngrediente">Buscar</button>
+                </div>
+                <div id="resultados">
+                </div>
+                <div id="detalles">
+                </div>
+            </div>
+            <div class="divRandom" id="divRandom">
+                <div class="divBotonesRandom">
+                    <button class="botonesBusqueda" type="button" id="botonRandom">Mostrar cóctel al azar...</button>
+                    <button class="botonesBusqueda" type="button" id="botonVolver2">Volver</button>
+                </div>
+                <div class="divContenidoRandom" id="divContenidoRandom"></div>
+            </div>        
+        </main>
+
+        <footer>
+            <h5><a href="https://www.instagram.com/gustimb/" target="_blank">Desarrollado por GMB • 2022</a></h5>
+        </footer>
+    </div>
+
+    <script src="script/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

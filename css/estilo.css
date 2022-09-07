@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    transition: 200ms ease-in-out;
+}
+
+.divHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 15px;
+}
+
+main {
+    display: flex;
+    height: auto;
+}
+
+.divBusqueda {
+    width: 50%;
+    background-image: linear-gradient(237deg, #000000 0%, #2c3e50 99%);
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divInput {
+    display: flex;
+}
+
+.botonesBusqueda {
+    margin: 15px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bolder;
+}
+
+#botonVolver,
+#botonVolver2 {
+    display: none;
+}
+
+.divRandom {
+    width: 50%;
+    background-image: linear-gradient(237deg, #000000 0%, #2c3e50 1%);
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBotonesRandom {
+    display: flex;
+}
+
+.divContenidoRandom,
+#detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultados {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetasResultados {
+    background-color: black;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.tituloBusqueda {
+    margin: 20px;
+    text-align: center;
+}
+
+.imgBusqueda {
+    width: 250px;
+    margin-bottom: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombreCocktel {
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.imgRandom {
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+h3,
+h4 {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 2rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.cajaIngredientes {
+    display: flex;
+}
+
+.divIngredientes {
+    padding: 10px;
+}
+
+.divMedidas {
+    padding: 10px;
+}
+
+.ingredientes {
+    margin-bottom: 2px;
+    color: whitesmoke;
+}
+
+.instrucciones {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
